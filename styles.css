@@ -2,18 +2,18 @@
     /* colors */
     --primary-color: #dfdfe2;
     --secondary-color: #ffffff;
-    --app-background-color: #4d4d62;
-    --background-color: #1b1b32;
-    --foreground-color: #3b3b4f;
-    --highlight-color: #f1be32;
+    --app-background-color: #343434;
+    --background-color: #414148;
+    --foreground-color: #181818;
+    --highlight-color: #f7f7f7;
   
     /* font sizes */
     --root-font-size: 16px;
     font-size: var(--root-font-size);
   
     /* font-families */
-    --font-headline: "Roboto Mono", monospace;
-    --font-family: "Lato", sans-serif;
+    --font-headline: "PT Serif", serif , cursive;
+    --font-family: "PT Serif", serif, cursive;
   }
   
   *,
@@ -24,8 +24,14 @@
   
   body {
     background-color: var(--app-background-color);
+    background-image: url('https://wallpapercave.com/wp/wp2392805.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--primary-color);
     font-family: var(--font-family);
+    font-weight: 700;
+    font-style: normal;
   }
   
   h1 {
