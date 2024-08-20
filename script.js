@@ -10,8 +10,8 @@ const allSongs = [
     id: 0,
     title: "1- Ready For It?",
     artist: "Taylor Swift",
-    duration: "3:30",  // Şarkının gerçek süresi neyse onu koyabilirsiniz
-    src: "songs/Taylor Swift - Ready For It_.mp3",  // Şarkının proje klasörünüzdeki doğru yolunu kullanın
+    duration: "3:30",  
+    src: "songs/Taylor Swift - Ready For It_.mp3", 
   },
   {
     id: 1,
